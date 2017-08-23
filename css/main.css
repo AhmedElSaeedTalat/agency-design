@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700');
+body{
+	font-family: 'Poppins', sans-serif;
+}
+p{
+	font-size: 14px;
+}
+h1{
+	font-size: 70px;
+	line-height: 81px;
+}
+h2{
+	font-size: 36px
+}
+h3{
+	font-size: 21px;
+	line-height: 25px;
+}
+                 /*****************************          Header                *************************************/
+#header 
+{
+	background-image: url("http://webnus.net/themes/easyweb/design/wp-content/uploads/2016/02/blx-d-p02-1.jpg"); 
+	height: 1900px;
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+#header .styleLink
+{
+	font-size: 10px;
+	line-height: 51px;
+	color: white;
+    padding-left: 2%;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+#header .styleLink:hover 
+{
+	color: #00c2e5;
+}
+#header .styleObject
+{
+	font-size: 10px;
+	line-height: 51px;
+	color: white;
+}
+#header .wrapperIcons
+{
+		display: inline-block;
+	    padding: 0 2%;
+        margin-top: 1%;
+	    height: 23px;
+		border-radius: 4px;
+		
+}
+#header .styleMenuIcons
+{
+	font-size: 12px;
+	color: white;
+}
+#header .wrapperFacebook:hover
+{
+	transition: 0.5s;
+}
+#header .wrapperFacebook:hover
+{
+	background: blue;
+	display: inline-block;
+}
+#header .wrapperTwitter:hover
+{
+	transition: 0.5s;
+
+}
+#header .wrapperTwitter:hover
+{
+	background: #00c2e5;
+	display: inline-block;
+}
+#header .wrapperGoogle:hover
+{
+	transition: 0.5s;
+
+}
+#header .wrapperGoogle:hover
+{
+	background: red;
+	display: inline-block;
+}
+#header .wrapperIn:hover
+{
+	transition: 0.5s;
+
+}
+#header .wrapperIn:hover
+{
+	background: #00c2e5;
+	display: inline-block;
+}
+#header .wrapperFaa:hover
+{
+	transition: 0.5s;
+
+}
+#header .wrapperFaa:hover
+{
+	background: #00c2e5;
+	display: inline-block;
+}
+#header .smallMenu
+{}
+
+@media only screen and (max-width: 960px)
+{
+	#header .smallMenu
+	{
+		background: #323232;
+	}
+}
+#mainIconWrapper
+{
+
+}
+@media only screen and (max-width: 669px)
+{
+	#mainIconWrapper
+{
+		margin-bottom: 3%;
+}
+}
+#header .marginTop
+{
+	    margin-top: 2%;
+
+}
+#header .image
+{
+	height: 37px;
+}
+#header .styleLink2
+{
+	color:white;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration:none;
+	padding-left: 4%;
+}
+#searchIcon
+{
+	color:white;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration:none;
+	padding-left: 4%;
+	cursor: pointer;
+}
+#header .styleLink2:hover 
+{
+	color: #00c2e5;
+}
+#header .positionRelative{
+	position: relative;
+}
+#header .searchBox
+{
+	background: white;
+    height: 55px;
+    width: 232px;
+    position: absolute;
+    right: 3px;
+    top: 125%;
+    padding: 1%;
+    display: none;
+}
+#header .searchInputWrapper
+{
+	background: #f3f3f3;
+    border-radius: 18px;
+    height: 100%;
+    padding: 3%;
+}
+#header .input
+{
+	outline: none;
+	background: transparent;
+	border:none; 
+	width: 85%;
+}
+#header .seacrhIcon
+{
+    color: #b7b3b3;
+}
+#header .shape
+{
+	position: absolute;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 10px solid white;
+    right: 2%;
+    top: 110%;
+    display: none;
+}
+
+#header .homeChild
+{
+    position: absolute;
+    background: #323232;
+    height: 155px;
+    width: 204px;
+    left: 24%;
+    top: 90%;
+    visibility: hidden;
+}
+#header .homeLink
+{
+	height: 60px;
+    display: inline-block;
+}
+#header .homeLink:hover  .homeChild
+{
+	visibility: visible;
+}
+#header .styleHomeLink
+{
+	color: white;
+	cursor: pointer;
+	margin: 7% 15%;
+    font-size: 12px;
+    line-height: 34px;
+    width: 282px;
+}
+#header .homeLinkWrapper{
+		height: 35px;
+}
+#header .homeLinkWrapper:hover
+{
+	color: #00c2e5;
+	background: black;
+}
+#header .servicesChild
+{
+    position: absolute;
+    background: #323232;
+    height: 309px;
+    width: 204px;
+    left: 42%;
+    top: 90%;
+    visibility: hidden;
+}
+#header .servicesLink
+{
+	height: 60px;
+    display: inline-block;
+}
+#header .servicesLink:hover  .servicesChild
+{
+	visibility: visible;
+}
+#header .adjustIconPosition
+{
+	    margin-left: 21%;
+}
+#header .secondChild
+{
+    position: absolute;
+    background: #323232;
+    height: 169px;
+    width: 204px;
+    left: 101%;
+    top: 0%;
+    visibility: hidden;
+}
+#header .webLink:hover .secondChild
+{
+		visibility: visible;
+}
+#header .portfolioChild
+{
+    position: absolute;
+    background: #323232;
+    height: 155px;
+    width: 204px;
+    left: 54%;
+    top: 90%;
+    visibility: hidden;
+}
+#header .port:hover
+{
+	height: 60px;
+    display: inline-block;
+}
+#header .port:hover .portfolioChild
+{
+	visibility: visible;
+}
