@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700');
 body{
 	font-family: 'Poppins', sans-serif;
+	
 }
 p{
 	font-size: 14px;
 }
 h1{
-	font-size: 70px;
+	font-size: 55px;
 	line-height: 81px;
 }
 h2{
@@ -20,9 +21,10 @@ h3{
 #header 
 {
 	background-image: url("http://webnus.net/themes/easyweb/design/wp-content/uploads/2016/02/blx-d-p02-1.jpg"); 
-	height: 1900px;
-	background-size: contain;
-	background-repeat: no-repeat; 
+	height: 800px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden; 
 }
 #header .styleLink
 {
@@ -43,10 +45,14 @@ h3{
 	line-height: 51px;
 	color: white;
 }
+#mainIconWrapper 
+{
+    margin-top: 1%;
+}
 #header .wrapperIcons
 {
 		display: inline-block;
-	    padding: 0 2%;
+	    padding: 0 1%;
         margin-top: 1%;
 	    height: 23px;
 		border-radius: 4px;
@@ -113,7 +119,23 @@ h3{
 {
 	#header .smallMenu
 	{
-		background: #323232;
+		background: #3b3e46;
+	}
+	#mainIconWrapper 
+	{
+	    margin-top: 2%;
+	}
+}
+@media only screen and (max-width: 767px)
+{
+	#mainIconWrapper 
+	{
+	       margin-top: -1%;
+   		   margin-bottom: 2%;
+	}
+	#header .smallMenu
+	{
+		height: 94px;
 	}
 }
 #mainIconWrapper
@@ -136,6 +158,10 @@ h3{
 {
 	height: 37px;
 }
+#header .addMarginLeft
+{
+	margin-left: 25%;
+}
 #header .styleLink2
 {
 	color:white;
@@ -144,6 +170,7 @@ h3{
 	text-decoration:none;
 	padding-left: 4%;
 }
+
 #searchIcon
 {
 	color:white;
@@ -234,7 +261,7 @@ h3{
 #header .homeLinkWrapper:hover
 {
 	color: #00c2e5;
-	background: black;
+	background: #222;
 }
 #header .servicesChild
 {
@@ -292,3 +319,1703 @@ h3{
 {
 	visibility: visible;
 }
+
+#header .menuSmallscreen
+{
+	display:none;
+}
+@media only screen and (max-width: 960px)
+{
+	#header .menuSmallscreen
+	{
+		display:flex;
+		background:white;
+		height: 80px;
+	}
+}
+#header .marginTopSmallscreen
+{
+	transform: translate(3%,50%);
+}
+#list{
+	font-size: 22px;
+    color: #00c2e5;
+    transform: translate(0%,133%);
+    cursor: pointer;
+}
+#header .sideMenu{
+	display: none;
+}
+@media only screen  and (max-width: 960px )
+{
+	#header .sideMenu
+	{
+		display: none;
+	    background: #242424;
+	    height: 100%;
+	    width: 267px;
+	    position: fixed;
+	    top: 0;
+		z-index: 10000000000000000000000000000;
+	}
+}
+#header .iconOptions
+{
+	color: #777;
+    width: 100%;
+    text-align: right;
+    font-size: 23px;
+    padding: 10%;
+}
+#header .wrapperMenuIcon
+{
+	    border-bottom: 1px solid #2b2b2b;
+}
+#header .background:hover
+{
+	    background:#222;
+		cursor: pointer;
+}
+#header .styleTextSideMenu
+{
+	color: #777;
+    height: 31px;
+    line-height: 48px;
+    padding-left: 9%;
+    font-weight: 600;
+}
+#header .adjustIconPositionIcon
+{
+		margin-left: 72%;
+    	font-size: 18px;
+}
+#header .adjustIconPositionIcon2
+{
+		margin-left: 90%;
+    	font-size: 18px;
+}
+#list2
+{
+	cursor: pointer;
+}
+#header .mainTextStyle
+{
+	font-weight: bold;
+	color: white;
+
+
+}
+#header .adjustRow
+{
+	padding: 5% 25%;
+	letter-spacing: -5px;
+}
+@media only screen  and (max-width: 960px )
+{
+	#header .marginTop
+	{
+		display:  none;
+	}
+	#header .mainTextStyle
+	{
+		font-size: 36px;
+		letter-spacing: -2px;
+
+	}
+	#header .adjustRow
+	 {
+	    padding: 5% 28%;
+	 }
+}
+@media only screen and (min-width: 960px) and (max-width: 1250px) 
+{
+	#header .styleLink2
+
+	{
+		font-size: 12px;
+		padding-left: 3.5%;
+
+	}
+	#header .mainTextStyle
+{
+	font-size: 55px;
+	letter-spacing: -4px;
+
+}
+#header .adjustRow {
+    padding: 5% 22%;
+}
+}
+@media only screen and (min-width: 961px) and (max-width: 1078px) 
+{
+	
+#header .adjustRow {
+    padding: 5% 18%;
+}
+}
+@media only screen and (max-width: 960px) 
+{
+	
+#header .adjustRow {
+    padding: 22% 10%;
+}
+}
+@media only screen and (max-width: 767px) 
+{
+		#header .mainTextStyle
+	{
+		font-size: 23px;
+		letter-spacing: -1px;
+		line-height: 30px;
+	}
+
+}
+@media only screen and (min-width: 376px) and (max-width: 414px) 
+{
+	
+#header .adjustRow {
+        padding: 22% 14%;
+}
+}
+#header .servicesIcons
+{
+	color: white;
+    font-size: 25px;
+        transform: translate(0%,50%);
+}
+#header .wrapperServicesIcons
+{
+	border: 2px solid white;
+    width: 25%;
+    margin: 0 auto;
+    height: 53px;
+    border-radius: 4px;
+}
+
+#header .styleText1
+{
+	margin-top: 15%;
+    font-size: 21px;
+    color: white;
+}
+#header .colorText
+{
+	color: white;
+}
+#header .linkMore
+{
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+}
+#header .wrapperLinkMore
+{
+	width: 60%;
+    margin: 0 auto;
+    background: rgba(44, 45, 47,0.33);
+    border-radius: 12px;
+    height: 26px;
+}
+#header .wrapperLinkMore:hover
+{
+	background: #25282d;
+}
+#header .adjustWidth:hover
+{
+	 
+}
+#header .img1
+{
+	height: 34px;
+    padding: 3% 1%;
+}
+#header .theWrapper
+{
+    position: relative;
+    padding: 11% 12%;
+    transition: background .5s ease-in-out;
+
+}
+#header .theWrapper:hover
+{
+	  background: rgba(85,191,230,0.70) url("../images/hoverEffect.png") top repeat;
+}
+@media only screen and (max-width: 767px)
+{
+	#header .wrapperLinkMore {
+    width: 34%;
+    margin: 0 auto;
+    background: rgba(44, 45, 47,0.33);
+    border-radius: 40px;
+    height: 33px;
+    padding-top: 0.5%;
+}
+#header {
+	height:2010px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px)
+{
+	#header .wrapperServicesIcons {
+    width: 55%;
+   
+}
+#header{
+	height: 1600px;
+}
+#header .styleText1 {
+    font-size: 18px;
+    color: white;
+}
+}
+#header .angle1 {
+    position: absolute;
+    display: block;
+    bottom: 10%;
+    left: 64%;
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 100%;
+    /* padding: 1% 1%; */
+    background-color: white;
+}
+#header .iconStyle1
+{
+	font-size: 13px;
+    transform: translate(1%,-36%);
+
+}
+#header .angle2{
+    position: absolute;
+    display: block;
+    bottom: 10%;
+    left: 64%;
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 100%;
+    /* padding: 1% 1%; */
+    background-color: white;
+}
+#header .angle3{
+    position: absolute;
+    display: block;
+    bottom: 10%;
+    left: 64%;
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 100%;
+    /* padding: 1% 1%; */
+    background-color: white;
+}
+#header .angle4{
+    position: absolute;
+    display: block;
+    bottom: 10%;
+    left: 64%;
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 100%;
+    /* padding: 1% 1%; */
+    background-color: white;
+}
+@media only screen and (min-width: 538px) and (max-width: 767px )
+{
+		#header .angle1  {
+			bottom: 18%;
+		    left: 58%;
+		}
+			#header .angle2 {
+			bottom: 18%;
+		    left: 58%;
+		}
+			#header .angle3 {
+			bottom: 17%;
+		    left: 58%;
+		}
+			#header .angle4  {
+			bottom: 17%;
+		    left: 58%;
+		}
+}
+@media only screen and (min-width: 470px) and (max-width: 537px )
+{
+			#header .angle1  {
+		    bottom: 16.5%;
+		    left: 58%;
+		}
+		#header .angle2  {
+		    bottom: 16.5%;
+		    left: 58%;
+		}
+		#header .angle3  {
+		    bottom: 16%;
+		    left: 58%;
+		}
+		#header .angle4  {
+		    bottom: 16%;
+		    left: 58%;
+		}
+	}
+	@media only screen and (min-width: 370px) and (max-width: 469px )
+{
+	#header .wrapperLinkMore {
+    width: 48%;
+}
+#header .angle1  {
+		    bottom: 15%;
+		    left: 61%;
+		}
+		#header .angle2  {
+		    bottom: 15%;
+		    left: 61%;
+		}
+		#header .angle3  {
+		    bottom: 15%;
+		    left: 61%;
+		}
+		#header .angle4  {
+		    bottom: 15%;
+		    left: 61%;
+		}
+}
+@media only screen and  (max-width: 369px )
+{
+	#header .wrapperLinkMore {
+    width: 56%;
+}
+#header .angle1  {
+		    bottom: 13%;
+		    left: 63%;
+		}
+		#header .angle2  {
+		    bottom: 13%;
+		    left: 63%;
+		}
+		#header .angle3  {
+		    bottom: 13%;
+		    left: 63%;
+		}
+		#header .angle4  {
+		    bottom: 13%;
+		    left: 63%;
+		}
+}
+@media only screen and  (min-width: 769px ) and (max-width: 990px)
+{
+	#header .wrapperLinkMore {
+    width: 100%;
+}
+#header .angle1  {
+		    bottom: 6%;
+    		left: 72%;
+		}
+		#header .angle2  {
+		   bottom: 6%;
+   			left: 72%;
+		}
+		#header .angle3  {
+		    bottom: 6%;
+    		left: 72%;
+		}
+		#header .angle4  {
+		   bottom: 6%;
+    		left: 72%;
+}
+}
+@media only screen and  (min-width: 990px ) and (max-width: 1199px)
+{
+	#header .wrapperLinkMore {
+    width: 64%;
+}
+#header .angle1  {
+		    bottom: 8%;
+    		left: 65%;
+		}
+		#header .angle2  {
+		    bottom: 8%;
+    		left: 65%;
+		}
+		#header .angle3  {
+		    bottom: 8%;
+    		left: 65%;
+		}
+		#header .angle4  {
+		    bottom: 8%;
+    		left: 65%;
+}
+}
+#requestAdd 
+{
+	background-image: url("http://webnus.net/themes/easyweb/design/wp-content/uploads/2015/12/callout_bg01.jpg");
+}
+#requestAdd .wrapper
+{
+	    margin: 5% 0%;
+    	color: white;
+}
+#requestAdd .textStyle1
+{
+	font-size: 24px;
+	font-weight: 300;
+	line-height:28px;
+}
+#requestAdd .textStyle2
+{
+	font-size: 14px;
+	line-height: 25px;
+}
+#requestAdd .buttonWrapper
+{
+	margin-top: 22%;
+    margin-bottom: 22%;
+    border: 2px solid white;
+    width: 77%;
+    border-radius: 4px;
+    margin-left: 23%;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+#requestAdd .buttonWrapper:hover
+{
+	background: white;
+	color: black;
+}
+#requestAdd .textStyle3
+{
+	font-size: 12px;
+	line-height: 25px;
+	color: white;
+	text-align: center;
+	font-weight: 500;
+	    transform: translate(0%,37%);
+}
+#requestAdd .textStyle3:hover
+{
+	color: black;
+}
+@media only screen and (min-width: 341px ) and (max-width: 767px)
+{
+	#requestAdd .buttonWrapper
+{
+	
+    border: 2px solid white;
+    width: 77%;
+    border-radius: 4px;
+   margin: 15% 95%;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+}
+#services
+{
+    margin-top: 8%;
+}
+
+#services .styleText
+{
+	font-size: 32px;
+	font-weight: 300;
+}
+#services .style
+{
+	    font-weight: 700;
+
+}
+#services .borderBottom
+{
+    width: 15%;
+    margin: 0 auto;
+    border-bottom: 2px solid #00c2e5;
+    margin-bottom: 10px;
+}
+#services .pos
+{
+	position: relative;
+}
+#services .shape2
+{
+	color: white;
+    font-size: 50px;
+    transform: rotate(180deg);
+    text-shadow: -1px 0 #00c2e5, 0 1px #00c2e5, 1px 0 #00c2e5, 0 -1px #00c2e5;
+    position: absolute;
+    right: 48.5%;
+    bottom: -207%;
+}
+#services .textWrapper
+{
+    padding: 3% 22%;
+
+}
+#services .textColor
+{
+	    color:#616161;
+}
+#services .circularWrapper
+{
+	height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    margin: 0 auto;
+	background: #e4f2f8 url("../images/hoverEffect.png");
+	padding: 18%;
+	transition: all .5s;
+}
+
+#services .wordPress
+{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: #00c2e5;
+}
+#services .font_Style
+{
+	font-size: 19px;
+	font-weight: 300;
+	color: #00c2e5;
+	text-align: center;
+	width: 100%;
+	padding-top:4%; 
+}
+#services .someBorder
+{
+	border-bottom: 2px solid #00c2e5;
+    width: 28%;
+    margin: -3% auto;
+}
+#services .text3
+{
+	color: #626262;
+    margin-top: 9%;
+}
+.bold
+{
+	font-weight: 700;
+}
+#services .readMore
+{
+	width: 50%;
+    height: 29px;
+    margin: 0 auto;
+    border-radius: 44px;
+    background-color: #00c2e5;
+}
+#services .linkStyle
+{
+	    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-left: 22%;
+    line-height: 29px;
+    text-decoration: none;
+}
+#services .circularWrapper:hover
+{
+	background-color:  #00c2e5;
+}
+#services .circularWrapper:hover .text3
+{
+		color: white;
+	}
+	#services .circularWrapper:hover .someBorder
+{
+		border-bottom: 2px solid white;
+	}
+	#services .circularWrapper:hover .font_Style
+{
+		color: white;
+	}
+#services .circularWrapper:hover .wordPress
+{
+		color: white;
+	}
+#services .circularWrapper:hover .readMore
+{
+		background: white;
+	}
+	#services .circularWrapper:hover .linkStyle
+{
+		color: #00c2e5;
+	}
+	#services .readMore:hover
+	{
+		background: black;
+	}
+	@media only screen and (min-width: 992px) and (max-width: 1199px)
+	{
+		#services .circularWrapper
+		{
+			    height: 290px;
+			    width: 290px;
+			    padding: 10%;
+		}
+	}
+	@media only screen and (min-width: 768px) and (max-width: 991px)
+	{
+		#services .circularWrapper
+		{
+			    height: 208px;
+			    width: 208px;
+			    padding: 10%;
+		}
+		#services .text3{
+			display: none;
+		}
+		#services .readMore{
+			display: none;
+		}
+	}
+	#services .someMargin{}
+	@media only screen and (max-width: 767px)
+	{
+				#services .textWrapper {
+		    			padding: 3% 0%;
+		}
+				#services .circularWrapper {
+					padding: 13%;
+			}
+			#services .someMargin{
+				margin-bottom: 6%;
+			}
+
+	}
+	#services .addMargin
+	{
+		margin-top: 6%;
+	}
+	#responsive
+	{
+		background: url("http://webnus.net/themes/easyweb/design/wp-content/uploads/2015/12/blx-d-p01v2.jpg");
+		background-position: top center;
+	    height: 750px;
+        margin-top: 10%;
+	}
+	#responsive .styleText1
+	{
+		font-size: 36px;
+		color: white;
+	}
+	#responsive .wrapper1
+	{
+		width: 100%;
+    	padding: 1%;
+    	margin-top: 22%;
+	}
+	#responsive .Icons
+	{
+			color: white;
+		    font-size: 26px;
+		    display: inline-block;
+	}
+	#responsive .styleText2
+	{
+			color: white;
+		    font-size: 16px;
+		    font-weight: 500;
+		    padding-left: 22%;
+		    margin-top: -11%;
+		    display: block;
+	}
+	#responsive .styleText3
+	{
+			font-size: 13px;
+		    color: white;
+		    line-height: 22px;
+		    margin-left: 22%;
+	}
+	#responsive .IconsSpecial
+	{
+		font-size: 39px;
+		color: white;
+    }
+
+    #responsive .margin1{}
+    #responsive .margin2{}
+
+    @media only screen and (max-width: 767px)
+    {
+    	#responsive
+    		{
+    			background-position: left ;
+    		}
+    		
+    		#responsive .margin1{
+    			margin-top: 10%; 
+    		}
+			#responsive .margin2{
+    			margin-top: 10%; 
+    		}
+    		#services .addMargin
+	    	{
+
+	   			 height: 1251px;
+
+	    	}
+
+
+    }
+
+
+
+    #blueSection 
+    {
+    	background: #00c2e5;
+    }
+    #blueSection .height{}
+    #blueSection .margin
+    {
+    	margin-top: 8%;
+    	margin-bottom: 8%;
+    }
+    @media only screen and (max-width: 1366px)
+    {
+
+		    #blueSection .height {
+		    height: 149px;
+		}
+		#blueSection .margin {
+		    margin-top: 24px;
+		    
+		}
+    }
+    @media only screen and (max-width: 767px)
+    {
+    	#blueSection .height{
+    		height: 850px;
+    	}
+    	#blueSection .margin
+		    {
+		    	margin-top: 5%;
+		    	margin-bottom: 5%;
+		    }
+    }
+    #blueSection .icons
+    {
+    	color: white;
+    	font-size: 38px;
+
+    }
+    #blueSection .styleNumbers
+    {
+    	color: white;
+	    display: inline-block;
+	    font-size: 42px;
+	    padding-left: 8px;
+	    font-weight: bold;
+    }
+    #blueSection .styleText
+    {
+    	color: white;
+	    margin-left: -3%;
+    }
+     #blueSection .styleText1
+    {
+    	color: white;
+	    margin-left: 2%;
+    }
+    #services .style2
+    {
+    	padding-left: .5%;
+    }
+    #filteration
+    {
+    	overflow: hidden;
+    }
+    #filteration .wrapper
+    {
+    	width: 100%;
+    	margin: 0 auto;
+    	    height: 60px;
+    }
+    #filteration .all
+    {
+    	border: 3px solid #e9e9e9;
+	    width: 6%;
+	    height: 39px;
+	    cursor: pointer;
+    }
+     #filteration .all:hover
+    {
+    	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.13);
+    }
+    #filteration .textStyle
+    {
+	    	font-size: 11px;
+		    line-height: 35px;
+		    font-weight: 500;
+		    color: #333333;
+    }
+    #filteration .inline
+    {
+    	display: inline-block;
+    }
+       #filteration .box1
+    {
+    	border: 3px solid #e9e9e9;
+	    width: 10%;
+	    height: 39px;
+	    cursor: pointer;
+
+    }
+    #filteration .box1:hover
+    {
+    	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.13);
+    }
+      #filteration .box2
+    {
+    	border: 3px solid #e9e9e9;
+	    width: 9%;
+	    height: 39px;
+	    cursor: pointer;
+
+    }
+    #filteration .box2:hover
+    {
+    	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.13);
+    }
+     #filteration .box3
+    {
+    	border: 3px solid #e9e9e9;
+	    width: 10%;
+	    height: 39px;
+	    cursor: pointer;
+
+    }
+    #filteration .box3:hover
+    {
+    	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.13);
+    }
+     #filteration .box4
+    {
+    	border: 3px solid #e9e9e9;
+	    width: 6%;
+	    height: 39px;
+	    cursor: pointer;
+
+    }
+    #filteration .box4:hover
+    {
+    	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.13);
+    }
+      #filteration .box5
+    {
+    	border: 3px solid #e9e9e9;
+	    width: 9%;
+	    height: 39px;
+	    cursor: pointer;
+
+    }
+    #filteration .box5:hover
+    {
+    	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.13);
+    }
+     #filteration .box6
+    {
+    	border: 3px solid #e9e9e9;
+	    width: 10%;
+	    height: 39px;
+	    margin-left: 4%;
+	    cursor: pointer;
+
+    }
+#filteration .box6:hover
+    {
+    	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.13);
+    }
+
+
+ #filteration .box7
+    {
+    	border: 3px solid #e9e9e9;
+	    width: 3%;
+	    height: 39px;
+	    cursor: pointer;
+
+    }
+#filteration .box6:hover
+    {
+    	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.13);
+    }
+
+
+
+
+    #filterByAnimation
+    {
+    	margin-top: 5%;
+    	position: relative;
+    	    overflow: auto;
+    }
+    #filterByAnimation .image
+    {
+    	    width: 33.3%;
+    		height: 304px;
+    		float: left;
+			/*position: absolute;*/
+    }
+    #filterByAnimation .backgroundHover
+    {
+    	position: absolute;
+		opacity:  0;
+   		background: rgba(0,194,229,0.5);
+    	height: 304px;
+    	width: 33.1%;
+    	top:-2px;
+    }
+    .xx
+    {
+		
+		   margin-left: 11%;
+		    margin-top: 11%;
+		    opacity: 0;
+		    position: absolute;
+		    background: rgba(95,94,94,0.6);
+		    height: 36px;
+		    width: 179px;
+		    border-radius: 4px;
+     }
+    #filterByAnimation .textStyle1
+    {
+	    	color:white;
+	    	font-size: 16px;
+	        text-align: center;
+	   		margin-top: 2%;
+    }
+    .animateimages{
+    	animation: animateimages 1s;
+    	animation-fill-mode: forwards;
+    }
+    @keyframes animateimages
+    {
+    	0%
+    	{
+			transform: scale(1,1);
+			
+    	}
+    	100%{
+    		transform: scale(0,0);
+    		display: none;
+    	}
+    }
+    .borderColor{
+    	border:;
+    }
+    @media only screen and (max-width: 557px)
+    {
+    		 #filterByAnimation .image
+    {
+    	    width:100%;
+    		
+    }
+     #filterByAnimation .backgroundHover{
+     	width: 100%;
+     }
+     .xx{
+     	    margin-top: 25%;
+     	    margin-left: 37%;
+     }
+     #filterByAnimation {
+    margin-top: 21%;
+}
+	#filteration .wrapper {
+	    height: 101px;
+	}
+#filteration .all {
+    width: 15%;
+}
+#filteration .box1 {
+    border: 3px solid #e9e9e9;
+    width: 24%;
+    }
+    #filteration .box2 {
+    width: 25%;
+}
+#filteration .box3 {
+    width: 28%;
+    }
+    #filteration .box5 {
+    border: 3px solid #e9e9e9;
+    width: 19%;
+    margin-left: 1%;
+}
+#filteration .box6 {
+    border: 3px solid #e9e9e9;
+    width: 20%;
+    margin-left: 1%;
+    }
+    #filteration .box7 {
+    border: 3px solid #e9e9e9;
+    width: 5%;
+}
+#filteration .box4 {
+    width: 19%;
+    margin-top: 2%;
+    margin-left:  -2.5%;
+    }
+    }
+    @media only screen and (min-width: 558px) and (max-width: 961px)
+    {
+		#filteration .wrapper {
+	    height: 101px;
+	}
+#filteration .all {
+    width: 15%;
+}
+#filteration .box1 {
+    border: 3px solid #e9e9e9;
+    width: 24%;
+    }
+    #filteration .box2 {
+    width: 25%;
+}
+#filteration .box3 {
+    width: 28%;
+    }
+    #filteration .box5 {
+    border: 3px solid #e9e9e9;
+    width: 19%;
+    margin-left: 1%;
+}
+#filteration .box6 {
+    border: 3px solid #e9e9e9;
+    width: 20%;
+    margin-left: 1%;
+    }
+    #filteration .box7 {
+    border: 3px solid #e9e9e9;
+    width: 5%;
+}
+#filteration .box4 {
+    width: 19%;
+    margin-top: 2%;
+    margin-left:  -2.5%;
+    }
+			
+#filterByAnimation .image {
+    width: 50%;
+}
+#filterByAnimation .backgroundHover
+{
+	width: 50%;
+}
+
+
+
+
+
+    }
+   /* #image1
+    {
+    	left:0px;
+    	top: 0px;
+    }
+     #image2
+    {
+    	left:449px;
+    	top: 0px;
+    }
+     #image3
+    {
+    	right:2px;
+    	top: 0px;
+    }
+     #image4
+    {
+    	left:0px;
+    	top: 304px;
+    }
+     #image5
+    {
+    	left:449px;
+    	top: 304px;
+    }
+     #image6
+    {
+    	right:2px;
+    	top: 304px;
+    }
+     #image7
+    {
+    	left:0px;
+    	top: 608px;
+    }
+     #image8
+    {
+    	left:449px;
+    	top: 608px;
+    }
+     #image9
+    {
+    	right:2px;
+    	top:608px;
+    }
+   */
+    @media only screen and (max-width: 365px)
+    {
+    	#services .text3 {
+		    color: #626262;
+		    margin-top: 9%;
+		    display: none;
+		}
+		#services .circularWrapper {
+			    height: 244px;
+			    width: 244px;
+			}
+			#services .readMore {
+				    width: 54%;
+				    height: 29px;
+				    margin: 31px auto;
+				}
+    }
+    @media only screen and (max-width: 384px)
+    {
+    	#filteration .box6 {
+			    border: 3px solid #e9e9e9;
+			    width: 29%;
+			}
+    }
+    @media only screen and (max-width: 320px)
+    {
+    	#filteration .wrapper {
+    height: 141px;
+}
+    	#filteration .box1 {
+    border: 3px solid #e9e9e9;
+    width: 33%;
+}
+#filteration .box3 {
+    width: 36%;
+}
+#filteration .box4 {
+    width: 35%;
+    margin-top: 2%;
+    margin-left: 1.5%;
+}
+#filteration .box5 {
+   
+    margin-top: 2%;
+    width: 35%;
+}
+#filteration .box6 {
+    border: 3px solid #e9e9e9;
+    width: 31%;
+}
+
+    }
+    #pagination
+    {
+    	overflow: hidden;
+    }
+#pagination .paginate
+
+{
+	    margin: 30px auto;
+        height: 45px;
+
+}
+
+
+#pagination .pag1
+
+{
+	  display: inline-block;
+    border: 3px solid #e9e9e9;
+    height: 39px;
+    cursor: pointer;
+    width: 41px;
+    /* padding: 19%; */
+    text-align: center;
+}
+#pagination .pag1:hover
+{
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.13);
+}
+
+#pagination .style1
+
+{
+	line-height: 37px;
+	display: inline-block;
+}
+
+@media only screen and (max-width: 961px)
+{
+		#filterByAnimation {
+		    margin-top: 5%;
+		    position: relative;
+		    /*height: 1561px;*/
+	}
+}
+@media only screen and (max-width: 557px)
+{
+		#filterByAnimation {
+		    margin-top: 5%;
+		    position: relative;
+		    /*height: 2776px;*/
+	}
+}
+#contact .styleIcon1
+{
+	color: #00c2e5;
+    font-size: 45px;
+	text-align:center;
+}
+#contact  .wrapper
+{
+		padding: 7% 20%;
+		border: 1px solid #e9e9e9;
+		text-align: center;
+		transition: all .5s linear;
+}
+#contact .styleText
+{
+	color: #00c2e5;
+    font-size: 20px;
+    display: inline-block;
+	font-weight: 500;
+	text-align:center;
+}
+#contact 
+{
+	margin-top: 7%;
+	position: relative;
+}
+#contact .textStyle2{
+	color: #616161;
+}
+#contact .textStyle3{
+	color: #00c2e5;
+	font-weight: bold;
+}
+#contact  .wrapper:hover
+{
+		background: #f6f8f9;
+}
+#contact .contactButton
+{
+    border: 2px solid #00c2e5;
+    border-radius: 19px;
+    /* top: 72%; */
+    width: 133px;
+    text-align: center;
+    /* left: 24.2%; */
+    height: 33px;
+    background: white;
+    margin: -3% auto;
+    margin-bottom: 10%;
+}
+#contact .styleText4
+{
+		color: #00c2e5;
+		line-height:30px;
+
+}
+#contact .contactButton:hover
+{
+	background: #333;
+    color: #fff;
+    border-color: #333;
+    cursor: pointer;
+}
+#contact .adjustHeight
+{
+	height: 235px;
+}
+#contact .contactButton2
+{
+	border: 2px solid #00c2e5;
+    border-radius: 19px;
+    /* top: 72%; */
+    width: 133px;
+    text-align: center;
+    /* left: 24.2%; */
+    height: 33px;
+    background: white;
+    margin: -3% auto;
+}
+#contact .contactButton2:hover
+{
+	background: #333;
+    color: white;
+    border-color: #333;
+    cursor: pointer;
+}
+#contact .contactButton:hover .styleText4
+{
+	color: white;
+}
+#contact .contactButton2:hover .styleText4
+{
+	color: white;
+}
+@media only screen and (min-width: 767px) and (max-width: 991px)
+{
+	#contact .adjustHeight {
+    		height: 248px;
+}
+	
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	#contact .adjustHeight {
+    		height: 244px;
+}
+	
+}
+
+
+#pricingSystem 
+{
+	margin-top: 5%;
+}
+#pricingSystem .box
+{
+	border: 1px solid #d8d8d8;
+}
+#pricingSystem .box2
+{
+	/*border:  1px solid #d8d8d8;*/
+	display: flex;
+	padding: 0px;
+}
+#pricingSystem .textStyle1
+{
+		font-size: 24px;
+		color:#171c24;
+		font-weight: 500;
+		margin-top: 2%;
+    	margin-left: 2%;
+}
+#pricingSystem .textStyle2
+{
+	color: #616161;
+	margin-top: 2%;
+    margin-left: 2%;
+}
+#pricingSystem .textStyle3
+{
+	font-size: 16px;
+    /* margin-top: 10%; */
+    padding-top: 8%;
+    font-weight: bold;
+}
+#pricingSystem .textStyle4
+{
+	font-size: 13px;
+	color: #616161;
+	margin-top: 2%;
+    margin-left: 2%;
+    line-height: 15px;
+}
+#pricingSystem .box1
+{
+	border:1px solid  #d8d8d8;
+	    overflow: hidden;
+}
+#pricingSystem .styleNumber
+{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	color:#5dc738;
+	position: absolute;
+    right: 5%
+}
+#pricingSystem .buttonWrapper
+{
+	border: 2px solid #00c2e5;
+    display: inline-block;
+    border-radius: 19px;
+    width: 95px;
+    text-align: center;
+    height: 25px;
+    background: white;
+   position: absolute;
+    right: 3%;
+ 	transition: all .5s linear;
+
+}
+#pricingSystem .styleText5
+{
+	color: #00c2e5;
+	font-size: 11px;
+	line-height: 22px;
+}
+#pricingSystem .buttonWrapper:hover
+{
+	background: #333;
+    color: white;
+    border-color: #333;
+    cursor: pointer;
+}
+#pricingSystem .buttonWrapper:hover .styleText5
+{
+	color:white;
+}
+#pricingSystem .someBorder
+{
+	border-right:  1px solid #d8d8d8;
+}
+
+#pricingSystem .adjustHeight
+{
+	height: 206px;
+
+}
+#pricingSystem .otherBorder
+{
+	border-right:  1px solid #d8d8d8;
+	border-left:  1px solid #d8d8d8;
+	border-bottom:  1px solid #d8d8d8;
+}
+#pricingSystem .otherBorder2
+{
+	border-right:  1px solid #d8d8d8;
+	border-bottom:  1px solid #d8d8d8;
+}
+#pricingSystem .box6
+{
+	height: 100%;
+    display: inline-block;
+    width: 49.7%;
+}
+
+#pricingSystem .styleNumber1 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5dc738;
+    position: absolute;
+    right: 9%;
+}
+
+#pricingSystem .styleNumber2 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5dc738;
+    position: absolute;
+    right: 6%;
+}
+#pricingSystem .buttonWrapper1 {
+    border: 2px solid #00c2e5;
+    display: inline-block;
+    border-radius: 19px;
+    width: 95px;
+    text-align: center;
+    height: 25px;
+    background: white;
+    position: absolute;
+    right: 7%;
+    transition: all .5s linear;
+    }
+    #pricingSystem .buttonWrapper2 {
+    border: 2px solid #00c2e5;
+    display: inline-block;
+    border-radius: 19px;
+    width: 95px;
+    text-align: center;
+    height: 25px;
+    background: white;
+   position: absolute;
+    right: 8%;
+    transition: all .5s linear;
+}
+
+#pricingSystem .buttonWrapper1:hover
+{
+	background: #333;
+    color: white;
+    border-color: #333;
+    cursor: pointer;
+}
+#pricingSystem .buttonWrapper1:hover .styleText5
+{
+	color:white;
+}
+#pricingSystem .buttonWrapper2:hover
+{
+	background: #333;
+    color: white;
+    border-color: #333;
+    cursor: pointer;
+}
+#pricingSystem .buttonWrapper2:hover .styleText5
+{
+	color:white;
+}
+#pricingSystem .buttonWrapper3 {
+    border: 2px solid #00c2e5;
+    display: inline-block;
+    border-radius: 19px;
+    width: 95px;
+    text-align: center;
+    height: 25px;
+    background: white;
+    position: absolute;
+    right: 6%;
+    transition: all .5s linear;
+}
+
+#pricingSystem .buttonWrapper3:hover
+{
+	background: #333;
+    color: white;
+    border-color: #333;
+    cursor: pointer;
+}
+@media only screen and (max-width: 767px)
+{
+	#pricingSystem .box2
+		{
+			display: block;
+		    
+		}
+	
+}
+}
+#pricingSystem .positionRelative
+{
+	position: relative;
+	overflow: hidden;
+}
+#pricingSystem .tag
+{
+	position: absolute;
+    background: #5dc738;
+    height: 27px;
+    width: 147px;
+    top: 8%;
+    transform: rotate(45deg);
+    left: 74%;
+}
+#pricingSystem .tagTextStyle
+{
+	    color: white;
+    font-size: 11px;
+    /* padding-left: 34%; */
+    padding-top: 3%;
+    text-align: center;
+}
+@media only screen and (min-width: 440px) and (max-width:776px)
+{
+	#pricingSystem .tag {
+	left:80%;
+	}	
+} 
+@media only screen and  (max-width:400px)
+{
+	#pricingSystem .tag {
+	left:70%;
+	}	
+} 
+@media only screen and (max-width: 676px)
+{
+	#services .linkStyle
+	{
+		padding-left: 27%;
+	}
+	#services {
+		margin-top: 32%;
+		margin-bottom: 13%;
+	}
+}
+#pricingSystem .marginBottom{}
+@media only screen and (max-width: 320px)
+{
+	#pricingSystem .marginBottom{
+		margin-bottom: 29%;
+	}
+	#pricingSystem .styleNumber {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5dc738;
+    position: absolute;
+    right: 42%;
+    bottom: 20%;
+}
+#pricingSystem .styleNumber1 {
+  
+    right: 39%;
+    bottom: 20%;
+}
+#pricingSystem .styleNumber2 {
+  
+    right: 39%;
+    bottom: 20%;
+}
+#pricingSystem .buttonWrapper {
+		right: 37%;
+		bottom: 14px;
+	}
+	#pricingSystem .buttonWrapper1 {
+		right: 37%;
+		bottom: 14px;
+	}
+	#pricingSystem .buttonWrapper3 {
+		right: 38%;
+		bottom: 14px;
+	}
+	#pricingSystem .buttonWrapper2 {
+			right: 38%;
+		bottom: 14px;
+	}
+	#pricingSystem .tag {
+    left: 67%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 960px){
+	#pricingSystem .marginBottom{
+		margin-bottom: 43%;
+	}
+	#pricingSystem .styleNumber {
+		right: 35%;
+		bottom: 20%;
+}
+#pricingSystem .buttonWrapper {
+		right: 30%;
+		bottom: 16px;
+	}
+	#pricingSystem .styleNumber1 {
+		right: 35%;
+		bottom: 20%;
+}
+#pricingSystem .buttonWrapper1 {
+		right: 33%;
+		bottom: 6%;
+	}
+	#pricingSystem .styleNumber2 {
+		right: 35%;
+		bottom: 20%;
+}
+#pricingSystem .buttonWrapper3 {
+		right: 31%;
+		bottom: 6%;
+	}
+	#pricingSystem .buttonWrapper2 {
+		right: 33%;
+		bottom: 6%;
+	}
+	#pricingSystem .tag {
+		left: 58%;
+	}
+}
+#pricingSystem
+{
+	position: relative;
+}
+#pricingSystem .packages
+{
+	position: absolute;
+	position: absolute;
+    top: 0;
+    right: 130px;
+    width: 354px;
+    background: pink;
+} 
