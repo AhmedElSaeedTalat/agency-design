@@ -193,6 +193,27 @@ $("#all").click(function(){
 
 
 
+
+
+$("#inputChange").focus(function(){
+   $(this).css({"background":"white"});
+
+});
+$("#inputChange").on("blur",function(){
+   		$(this).css({"background":"transparent"});
+});
+// $("#read").mouseenter(function(){
+// $(this).css({"background":"black"});
+// $("#linkStyle").css({"color":"white"});
+
+// });
+
+// $("#read").mouseleave(function(){
+// $(this).css({"background":"#00c2e5"});
+// $("#linkStyle").css({"color":"white"});
+
+// });
+
 		
 
 
