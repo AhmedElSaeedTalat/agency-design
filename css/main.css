@@ -2066,10 +2066,18 @@ h3{
 		margin-top:-98%; 
   		}
 }
-#read:hover {
-	background: black;
-}
+.readMore:hover {
+	background: black !important;
 
+}
+.readMore:hover .linkStyle{
+	color: white !important;
+}
+/*#services .linkStyle:hover {
+	color: white !important;
+
+
+}*/
 #articles{
 	background:#f5f5f5; 
     margin-top: 21%;
@@ -2381,4 +2389,48 @@ h3{
 	#services .shape2 {
     right: 47.5%;
 }
+}
+@media only screen and (max-width: 767px)
+{
+	#responsive .wrapper1 {
+    width: 100%;
+    padding: 1%;
+    margin-top: 43px;
+}
+}
+@media only screen and (min-width: 1801px) and (max-width: 1920px)
+{
+	#header .homeChild{
+		    left: 38%;
+	}
+	#header .servicesChild{
+		    left: 53%;
+	}
+	#header .portfolioChild{
+		    left: 63%;
+	}
+}
+@media only screen and (min-width: 1700px) and (max-width: 1800px)
+{
+	#header .homeChild{
+		    left: 34%;
+	}
+	#header .servicesChild{
+		    left: 51%;
+	}
+	#header .portfolioChild{
+		    left: 61%;
+	}
+}
+@media only screen and (min-width: 1500px) and (max-width: 1699px)
+{
+		#header .homeChild{
+		    left: 29%;
+	}
+	#header .servicesChild{
+		    left: 46%;
+	}
+	#header .portfolioChild{
+		    left: 57%;
+	}
 }

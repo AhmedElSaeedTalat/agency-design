@@ -244,6 +244,15 @@ $(document).on("scroll",function(){
 		if($(window).width() <= 1280){
 			$(".homeChild").css("left","20%");
 		}
+		if($(window).width() >= 1500){
+			$(".homeChild").css("left","29%");
+		}
+		if($(window).width() >= 1700){
+			$(".homeChild").css("left","34%");
+		}
+		if($(window).width() >= 1800){
+			$(".homeChild").css("left","38%");
+		}
 		$(".homeChild").css("top","99%");
 		$(".servicesChild").css("top","99%");
 		$(".portfolioChild").css("top","99%");
@@ -266,8 +275,15 @@ $(document).on("scroll",function(){
 		$(".homeChild").css("top","90%");
 		$(".servicesChild").css("top","90%");
 		$(".portfolioChild").css("top","90%");
-
-
+		if($(window).width() >= 1500){
+			$(".homeChild").css("left","29%");
+		}
+		if($(window).width() >= 1700){
+			$(".homeChild").css("left","34%");
+		}
+	if($(window).width() > 1800){
+				$(".homeChild").css("left","38%");
+			}
 	}
 });
 		
