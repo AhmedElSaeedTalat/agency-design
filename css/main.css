@@ -838,13 +838,13 @@ h3{
 }
 #services .shape2
 {
-	color: white;
+	/*color: white;
     font-size: 50px;
     transform: rotate(180deg);
-    text-shadow: -1px 0 #00c2e5, 0 1px #00c2e5, 1px 0 #00c2e5, 0 -1px #00c2e5;
+    text-shadow: -1px 0 #00c2e5, 0 1px #00c2e5, 1px 0 #00c2e5, 0 -1px #00c2e5;*/
     position: absolute;
-    right: 48.5%;
-    bottom: -207%;
+   right: 48%;
+    bottom: -7%;
 }
 #services .textWrapper
 {
@@ -2365,4 +2365,20 @@ h3{
 	display: inline-block;
 	color: #00c2e5;
 	cursor: pointer;
+}
+.imagetr
+{
+	    height: 30px;
+}
+@media only screen and (max-width: 930px)
+{
+	#services .shape2 {
+    right: 47%;
+}
+}
+@media only screen and (min-width: 930px) and (max-width: 985px)
+{
+	#services .shape2 {
+    right: 47.5%;
+}
 }

@@ -18,8 +18,9 @@ $(window).on("resize",function(){
 });
 $("#searchIcon").click(function(){
 	$(".searchBox").toggle();
+
+
 	$(".shape").toggle();
-	$(".input").focus();
 });
 $(".input").on("blur",function(){
 	$(".searchBox").hide();
@@ -237,6 +238,7 @@ $(document).on("scroll",function(){
 		$("#row").addClass("fixed-top");
 		$(".styleLink2").addClass("addedMenu");
 		$(".styleLink2").css("color","#222");
+		$("#searchIcon").css("color","#222");
 		$("#row").css("margin-top","0px");
 		$(".homeChild").css("left","25%");
 		if($(window).width() <= 1280){
@@ -254,6 +256,7 @@ $(document).on("scroll",function(){
 		$(".styleLink2").removeClass("addedMenu");
 		$("#row").css("margin-top","2%");
 		$(".styleLink2").css("color","white");
+		$("#searchIcon").css("color","white");
 		$("#menuImage").attr("src","http://webnus.net/themes/easyweb/design/wp-content/uploads/2016/02/logo2d-w-1.png");
 		$("#menuImage").css("margin-top","0%");
 		$(".homeChild").css("left","24%");
