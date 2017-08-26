@@ -2165,7 +2165,7 @@ h3{
 	}
 	#footer .marginTop
 	{
-		    margin-top: 5%;
+		    margin-top: 58px;
 	}
 	#footer .wrapperIcons
 	{
@@ -2318,3 +2318,51 @@ h3{
 		background: #222;
 		border: 1px solid #222;
 	}
+	.classMenu{
+		    background: white;
+	}
+	.addedMenu
+	{
+			color: #222;
+		    padding-top: 20px;
+
+	}
+   /* font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 4%;*/
+    /*#header .styleLink2 {*/
+    	/*img     margin-top: 3%;*/
+    	@media only screen and (max-width: 1280px){
+    		#header .homeChild {
+				left: 19%;
+    		}
+    		#header .servicesChild {
+				left: 38%;
+
+    		}
+    	}
+    	#last {
+    		background:#22242c;
+
+    	}
+    	#last .styleText
+    	{
+    		font-size: 12px;
+    		color: #898b92;
+    		margin-top: 40px;
+   			 margin-bottom: 40px;
+}
+#last .point
+{
+	    display: inline-block;
+	    color: #00c2e5;
+	    font-size: 24px;
+	    padding-left: 6px;
+   	    padding-right: 6px;
+}
+#last .hover:hover{
+	display: inline-block;
+	color: #00c2e5;
+	cursor: pointer;
+}
